@@ -3,7 +3,7 @@ package murraco;
 public class Quicksort {
 
   // Time complexity: average O(n*log(n)) and worst O(n^2) - Space complexity: O(log(n))
-  public static <T extends Comparable<T>> void quickSort(T[] arr) {
+  public static <T extends Comparable<T>> void quickSort(Integer[] arr) {
     quickSort(arr, 0, arr.length - 1);
   }
 
